@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joyce_back_end_project_MSA", "Joyce_back_end_project_MSA\Joyce_back_end_project_MSA.csproj", "{68913B36-AB41-47FB-943F-E6A0689F454D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68913B36-AB41-47FB-943F-E6A0689F454D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68913B36-AB41-47FB-943F-E6A0689F454D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68913B36-AB41-47FB-943F-E6A0689F454D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68913B36-AB41-47FB-943F-E6A0689F454D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01230DB6-A043-42A0-97B1-33820C678222}
+	EndGlobalSection
+EndGlobal
