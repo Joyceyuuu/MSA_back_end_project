@@ -36,3 +36,5 @@ F:\MSA\B_my_project\MSA_back_end_project\Joyce_back_end_project_MSA\Joyce_back_e
 F:\MSA\B_my_project\MSA_back_end_project\Joyce_back_end_project_MSA\Joyce_back_end_project_MSA\obj\Debug\net6.0\Joyce_back_end_project_MSA.pdb
 F:\MSA\B_my_project\MSA_back_end_project\Joyce_back_end_project_MSA\Joyce_back_end_project_MSA\obj\Debug\net6.0\Joyce_back_end_project_MSA.genruntimeconfig.cache
 F:\MSA\B_my_project\MSA_back_end_project\Joyce_back_end_project_MSA\Joyce_back_end_project_MSA\obj\Debug\net6.0\ref\Joyce_back_end_project_MSA.dll
+F:\MSA\B_my_project\MSA_back_end_project\Joyce_back_end_project_MSA\Joyce_back_end_project_MSA\bin\Debug\net6.0\Joyce_back_end_project_MSA.xml
+F:\MSA\B_my_project\MSA_back_end_project\Joyce_back_end_project_MSA\Joyce_back_end_project_MSA\obj\Debug\net6.0\Joyce_back_end_project_MSA.xml

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Joyce_back_end_project_MSA</name>
+    </assembly>
+    <members>
+        <member name="M:Joyce_back_end_project_MSA.Controllers.AnimalCrossingController.GetRawRedditHotPosts">
+            <summary>
+            Gets the raw JSON for the hot feed in XXXXXXX
+            </summary>
+            <returns>A JSON object representing the hot feed in XXXXXX</returns>
+        </member>
+    </members>
+</doc>

@@ -7,10 +7,15 @@ builder.Services.AddSwaggerDocument(options =>
     options.Version = "V1";
 
 });
-builder.Services.AddHttpClient("reddit", configureClient: client =>
+
+
+//define the HttpClient
+builder.Services.AddHttpClient("animalCrossing", configureClient: client =>
 {
-    client.BaseAddress = new Uri("https://www.reddit.com/dev/api");
+    //client.BaseAddress = new Uri("https://www.reddit.com/dev/api");
+    client.BaseAddress = new Uri("http://acnhapi.com/v1/villagers/1");
 });
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -32,7 +37,10 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseRouting();
+
 app.UseAuthorization();
+app.UseAuthentication();
 
 app.MapControllers();
 
