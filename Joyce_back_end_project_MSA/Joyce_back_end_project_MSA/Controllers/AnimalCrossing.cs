@@ -19,18 +19,35 @@ namespace Joyce_back_end_project_MSA.Controllers
 
 
             /// <summary>
-            /// Gets the raw JSON for the hot feed in XXXXXXX
+            /// Gets the raw JSON from API.
             /// </summary>
-            /// <returns>A JSON object representing the hot feed in XXXXXX</returns>
+            /// <returns>A JSON object return as defualt data</returns>
             [HttpGet(Name = "GetAnimalCrossingInfor")]
-            [Route("raw")]
             [ProducesResponseType(200)]
             public async Task<IActionResult> GetRawRedditHotPosts()
             {
-                var res = await _client.GetAsync("/hot");
+                var res = await _client.GetAsync("");
                 var content = await res.Content.ReadAsStringAsync();
                 return Ok(content);
             }
 
-        }
+            
+            /// <summary>
+            /// In the same Controller class, use two [HttpGet] is not allow, 
+            /// so change one of the controller as [HttpPost] 
+            /// to allow these two requests. 
+            /// </summary>
+            /// <param name="input"></param>
+            /// <returns></returns>
+            [HttpPost(Name = "GetAnimalCrossingInfor1")]
+            [ProducesResponseType(200)]
+            [ProducesResponseType(400)]
+            public async Task<IActionResult> GetInputInfor(int input)
+            {
+                var res1 = await _client.GetAsync(input.ToString());
+                var content1 = await res1.Content.ReadAsStringAsync();
+                if (input < 0) return BadRequest("Please input a number to get different API data.");
+                return Ok(content1);
+            }
+    }
 }

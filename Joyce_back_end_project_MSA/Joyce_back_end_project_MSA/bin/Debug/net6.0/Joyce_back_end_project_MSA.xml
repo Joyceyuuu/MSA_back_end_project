@@ -6,9 +6,24 @@
     <members>
         <member name="M:Joyce_back_end_project_MSA.Controllers.AnimalCrossingController.GetRawRedditHotPosts">
             <summary>
-            Gets the raw JSON for the hot feed in XXXXXXX
+            Gets the raw JSON from API.
             </summary>
-            <returns>A JSON object representing the hot feed in XXXXXX</returns>
+            <returns>A JSON object return as defualt data</returns>
+        </member>
+        <member name="M:Joyce_back_end_project_MSA.Controllers.AnimalCrossingController.GetInputInfor(System.Int32)">
+            <summary>
+            In the same Controller class, use two [HttpGet] is not allow, 
+            so change one of the controller as [HttpPost] 
+            to allow these two requests. 
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Joyce_back_end_project_MSA.Controllers.AnimalCrossingSearchController.GetInputInfor(System.Int32)">
+            <summary>
+            User can input a number to search different information
+            </summary>
+            <returns>A JSON object representing the return infor</returns>
         </member>
     </members>
 </doc>
