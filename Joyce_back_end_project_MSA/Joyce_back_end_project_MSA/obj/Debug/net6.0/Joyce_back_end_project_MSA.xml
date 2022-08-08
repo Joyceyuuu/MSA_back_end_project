@@ -25,5 +25,13 @@
             </summary>
             <returns>A JSON object representing the return infor</returns>
         </member>
+        <member name="M:Joyce_back_end_project_MSA.Controllers.Testcontrollers.GetResult(System.Int32)">
+            <summary>
+            Adds two numbers together
+            </summary>
+            <param name="left">The number on the left, which must be a positive integer</param>
+            <param name="right">The number on the right, which must be a positive integer</param>
+            <returns>The sum of the input numbers</returns>
+        </member>
     </members>
 </doc>

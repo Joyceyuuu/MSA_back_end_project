@@ -12,17 +12,19 @@ namespace Joyce_back_end_project_MSA.Controllers
             {
                 if (clientFactory is null)
                 {
-                    throw new ArgumentNullException(nameof(clientFactory));
+                 throw new ArgumentNullException(nameof(clientFactory));
                 }
                 _client = clientFactory.CreateClient("animalCrossing");
             }
 
+      
 
-            /// <summary>
-            /// Gets the raw JSON from API.
-            /// </summary>
-            /// <returns>A JSON object return as defualt data</returns>
-            [HttpGet(Name = "GetAnimalCrossingInfor")]
+
+        /// <summary>
+        /// Gets the raw JSON from API.
+        /// </summary>
+        /// <returns>A JSON object return as defualt data</returns>
+        [HttpGet(Name = "GetAnimalCrossingInfor")]
             [ProducesResponseType(200)]
             public async Task<IActionResult> GetRawRedditHotPosts()
             {

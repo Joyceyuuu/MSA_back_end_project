@@ -1,0 +1,171 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\MSA\\B_my_project\\MSA_back_end_project\\Joyce_back_end_project_MSA\\AnimalCrossingTestProject\\AnimalCrossingTestProject.csproj": {}
+  },
+  "projects": {
+    "F:\\MSA\\B_my_project\\MSA_back_end_project\\Joyce_back_end_project_MSA\\AnimalCrossingTestProject\\AnimalCrossingTestProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\MSA\\B_my_project\\MSA_back_end_project\\Joyce_back_end_project_MSA\\AnimalCrossingTestProject\\AnimalCrossingTestProject.csproj",
+        "projectName": "AnimalCrossingTestProject",
+        "projectPath": "F:\\MSA\\B_my_project\\MSA_back_end_project\\Joyce_back_end_project_MSA\\AnimalCrossingTestProject\\AnimalCrossingTestProject.csproj",
+        "packagesPath": "C:\\Users\\joyce\\.nuget\\packages\\",
+        "outputPath": "F:\\MSA\\B_my_project\\MSA_back_end_project\\Joyce_back_end_project_MSA\\AnimalCrossingTestProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\visual  studio\\sdk\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joyce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\MSA\\B_my_project\\MSA_back_end_project\\Joyce_back_end_project_MSA\\Joyce_back_end_project_MSA\\Joyce_back_end_project_MSA.csproj": {
+                "projectPath": "F:\\MSA\\B_my_project\\MSA_back_end_project\\Joyce_back_end_project_MSA\\Joyce_back_end_project_MSA\\Joyce_back_end_project_MSA.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\MSA\\B_my_project\\MSA_back_end_project\\Joyce_back_end_project_MSA\\Joyce_back_end_project_MSA\\Joyce_back_end_project_MSA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\MSA\\B_my_project\\MSA_back_end_project\\Joyce_back_end_project_MSA\\Joyce_back_end_project_MSA\\Joyce_back_end_project_MSA.csproj",
+        "projectName": "Joyce_back_end_project_MSA",
+        "projectPath": "F:\\MSA\\B_my_project\\MSA_back_end_project\\Joyce_back_end_project_MSA\\Joyce_back_end_project_MSA\\Joyce_back_end_project_MSA.csproj",
+        "packagesPath": "C:\\Users\\joyce\\.nuget\\packages\\",
+        "outputPath": "F:\\MSA\\B_my_project\\MSA_back_end_project\\Joyce_back_end_project_MSA\\Joyce_back_end_project_MSA\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\visual  studio\\sdk\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joyce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.16.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
