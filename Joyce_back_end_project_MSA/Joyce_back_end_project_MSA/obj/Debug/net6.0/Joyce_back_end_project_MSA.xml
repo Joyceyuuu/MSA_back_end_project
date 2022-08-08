@@ -27,11 +27,10 @@
         </member>
         <member name="M:Joyce_back_end_project_MSA.Controllers.Testcontrollers.GetResult(System.Int32)">
             <summary>
-            Adds two numbers together
+            Check input number
             </summary>
-            <param name="left">The number on the left, which must be a positive integer</param>
-            <param name="right">The number on the right, which must be a positive integer</param>
-            <returns>The sum of the input numbers</returns>
+            <param name="input_number">The number on the left, which must be a positive integer</param>
+            <returns>Input number ok to use</returns>
         </member>
     </members>
 </doc>

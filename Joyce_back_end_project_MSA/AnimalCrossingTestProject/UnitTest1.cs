@@ -13,9 +13,11 @@ namespace AnimalCrossingTestProject
         [SetUp]
         public void Setup()
         {
+            
         }
 
         [Test]
+        //If input number = 0, the result will be 'bad request'
         public async Task Test1()
         {
             int inputNumber = 0;
@@ -28,18 +30,21 @@ namespace AnimalCrossingTestProject
 
             string result = testcontrollers.GetResult(inputNumber).ToString();
             Assert.AreEqual("Microsoft.AspNetCore.Mvc.BadRequestObjectResult", result);
-            //arrage
-            //AnimalCrossingController s = new AnimalCrossingController();
+        }
 
-            // act
-             //s.GetInputInfor(inputNumber);
+        [Test]
+        public async Task Test2()
+        {
+            int inputNumber = 1;
 
-            //assert
-            // int checkInputNumber = 0;
-            // Assert.AreEqual(outputNumber, checkInputNumber);
-
+            Testcontrollers testcontrollers = new Testcontrollers();
 
 
+            testcontrollers.GetResult(inputNumber);
+
+
+            string result = testcontrollers.GetResult(inputNumber).ToString();
+            Assert.AreEqual("Microsoft.AspNetCore.Mvc.OkObjectResult", result);
         }
     }
 }
