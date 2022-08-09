@@ -2,13 +2,22 @@
 
 namespace Joyce_back_end_project_MSA.Controllers
 {
-        [ApiController]
+    /// <summary>
+    /// Gets the raw JSON from API.
+    /// </summary>
+    /// <returns>A JSON object return as defualt data</returns>
+    [ApiController]
         [Route("[controller]")]
-        public class AnimalCrossingController : ControllerBase
+
+    public class AnimalCrossingController : ControllerBase
         {
             private readonly HttpClient _client;
 
-            public AnimalCrossingController(IHttpClientFactory clientFactory)
+        /// <summary>
+        /// create a Http client.
+        /// </summary>
+        /// <returns>A JSON object return as defualt data</returns>
+        public AnimalCrossingController(IHttpClientFactory clientFactory)
             {
                 if (clientFactory is null)
                 {
@@ -17,11 +26,11 @@ namespace Joyce_back_end_project_MSA.Controllers
                 _client = clientFactory.CreateClient("animalCrossing");
             }
 
-      
+
 
 
         /// <summary>
-        /// Gets the raw JSON from API.
+        /// Gets animal crossing infomation
         /// </summary>
         /// <returns>A JSON object return as defualt data</returns>
         [HttpGet(Name = "GetAnimalCrossingInfor")]
@@ -40,7 +49,7 @@ namespace Joyce_back_end_project_MSA.Controllers
             /// to allow these two requests. 
             /// </summary>
             /// <param name="input"></param>
-            /// <returns></returns>
+            /// <returns>return a input animal crossing ID result.</returns>
             [HttpPost(Name = "GetAnimalCrossingInfor1")]
             [ProducesResponseType(200)]
             [ProducesResponseType(400)]

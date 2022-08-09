@@ -7,7 +7,10 @@ namespace Joyce_back_end_project_MSA.Controllers
     public class AnimalCrossingSearchController : ControllerBase
     {
         private readonly HttpClient _client;
-
+        /// <summary>
+        /// create a Http client.
+        /// </summary>
+        /// <returns>A JSON object return as defualt data</returns>
         public AnimalCrossingSearchController(IHttpClientFactory clientFactory)
         {
             if (clientFactory is null)

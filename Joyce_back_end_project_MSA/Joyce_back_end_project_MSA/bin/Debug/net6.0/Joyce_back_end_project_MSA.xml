@@ -4,9 +4,21 @@
         <name>Joyce_back_end_project_MSA</name>
     </assembly>
     <members>
-        <member name="M:Joyce_back_end_project_MSA.Controllers.AnimalCrossingController.GetRawRedditHotPosts">
+        <member name="T:Joyce_back_end_project_MSA.Controllers.AnimalCrossingController">
             <summary>
             Gets the raw JSON from API.
+            </summary>
+            <returns>A JSON object return as defualt data</returns>
+        </member>
+        <member name="M:Joyce_back_end_project_MSA.Controllers.AnimalCrossingController.#ctor(System.Net.Http.IHttpClientFactory)">
+            <summary>
+            create a Http client.
+            </summary>
+            <returns>A JSON object return as defualt data</returns>
+        </member>
+        <member name="M:Joyce_back_end_project_MSA.Controllers.AnimalCrossingController.GetRawRedditHotPosts">
+            <summary>
+            Gets animal crossing infomation
             </summary>
             <returns>A JSON object return as defualt data</returns>
         </member>
@@ -17,7 +29,13 @@
             to allow these two requests. 
             </summary>
             <param name="input"></param>
-            <returns></returns>
+            <returns>return a input animal crossing ID result.</returns>
+        </member>
+        <member name="M:Joyce_back_end_project_MSA.Controllers.AnimalCrossingSearchController.#ctor(System.Net.Http.IHttpClientFactory)">
+            <summary>
+            create a Http client.
+            </summary>
+            <returns>A JSON object return as defualt data</returns>
         </member>
         <member name="M:Joyce_back_end_project_MSA.Controllers.AnimalCrossingSearchController.GetInputInfor(System.Int32)">
             <summary>
@@ -29,7 +47,7 @@
             <summary>
             Check input number
             </summary>
-            <param name="input_number">The number on the left, which must be a positive integer</param>
+            <param name="input_number">type a number greater than 0 and smaller than 999</param>
             <returns>Input number ok to use</returns>
         </member>
     </members>

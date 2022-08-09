@@ -11,7 +11,7 @@ namespace Joyce_back_end_project_MSA.Controllers
         /// <summary>
         /// Check input number
         /// </summary>
-        /// <param name="input_number">The number on the left, which must be a positive integer</param>
+        /// <param name="input_number">Enter a number greater than 0 and smaller than 999</param>
        
         /// <returns>Input number ok to use</returns>
         [HttpGet]
