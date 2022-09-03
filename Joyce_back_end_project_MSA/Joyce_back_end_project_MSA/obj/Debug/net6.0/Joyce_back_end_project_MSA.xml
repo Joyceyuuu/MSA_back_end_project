@@ -47,7 +47,7 @@
             <summary>
             Check input number
             </summary>
-            <param name="input_number">type a number greater than 0 and smaller than 999</param>
+            <param name="input_number">Enter a number greater than 0 and smaller than 999</param>
             <returns>Input number ok to use</returns>
         </member>
     </members>
