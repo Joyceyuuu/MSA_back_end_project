@@ -12,6 +12,9 @@ on:
 jobs:
   build:
     runs-on: windows-latest
+    defaults:
+      run:
+        working-directory: "./MSA_back_end_project/Joyce_back_end_project_MSA"
 
     steps:
       - uses: actions/checkout@v2
