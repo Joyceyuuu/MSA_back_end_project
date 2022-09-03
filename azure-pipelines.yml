@@ -7,7 +7,7 @@ trigger:
 - main
 
 variables:
-  rootDir: 'Joyce_back_end_project_MSA'
+  rootDir: 'MSA_back_end_project'
   buildDir: '$(rootDir)/build'
 
 pool:
