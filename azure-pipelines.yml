@@ -7,7 +7,7 @@ trigger:
 - main
 
 variables:
-  rootDir: ''
+  rootDir: 'MSA_back_end_project'
   buildDir: '$(rootDir)/build'
 
 pool:
